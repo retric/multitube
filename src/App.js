@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import SearchForm from './components/searchform'
+//import Iframe from './components/iframe'
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  handleSubmit() {
-
-  }
   render() {
     return (
       <div className="App">
@@ -16,12 +15,7 @@ class App extends Component {
         <p className="App-intro">
         To get started, enter a video that you would like to watch.
         </p>
-        <div className="searchForm">
-          <form className="searchForm" onSubmit={this.handleSubmit}>
-          <input id="searchBar" type="text" ref="" placeholder="Search" />
-          <button className="searchButton" type="submit" onClick={this.handleSubmit}><span className="searchButtonContent" /></button>
-          </form>
-        </div>
+        <SearchForm />
       </div>
     );
   }

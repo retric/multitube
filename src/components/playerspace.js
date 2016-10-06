@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Youtubepl from './youtubepl'
 
+/* Container for all YouTube players. */
 class PlayerSpace extends Component {
   constructor(props) {
     super();

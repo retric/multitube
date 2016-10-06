@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import YouTubePlayer from 'youtube-player';
 
+/* Component for individual YouTube players. */
 class Youtubepl extends Component {
   constructor(props) {
     super();
